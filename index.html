@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina del Instituto de Educación Superior Nº 48 'Gral. José de San Martín' sobre la Educación Sexual Integral">
+    <link rel="shortcut icon" href="img/Logo Instituto.png" type="image/x-icon">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>ESI | Instituto de Educacion Superior Nº 48 'Gral. Jose de San Martin'</title>
+
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="barra">
+          <a href="#"><img class= "icono" src="./img/Logo Instituto.png" alt="ESI Icono"></a>
+
+          <div class="navegacion__botonr">
+              <input type="checkbox" id="abrir">
+              <label for="abrir" class="boton_nav"">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M4 6l16 0" />
+                      <path d="M4 12l16 0" />
+                      <path d="M4 18l16 0" />
+                  </svg>
+              </label>
+          </div>
+          <nav class="navegacion" id="nav">
+              <button id="cerrar"class="cerrar-menu">Cerrar</button>
+              <div class="navegacion__enlaces">
+                <a class="navegacion--enlace"  href="#informacion" onclick="return link__presionar()">¿Qué es la ESI?</a>
+                <a class="navegacion--enlace"  href="#propuestas" onclick="return link__presionar()">Propuestas</a>
+                <a class="navegacion--enlace"  href="#esi" onclick="return link__presionar()">¿Por qué se creo la ESI?</a>
+                <a class="navegacion--enlace"  href="#ejesesi" onclick="return link__presionar()">Ejes ESI</a>
+              </div>
+          </nav>
+      </div>
+
+      <div class="header__texto">
+          <h1 class="no-margin">El Derecho a la Educación Sexual Integral (ESI)</h1>
+          <p class="margin">Instituto de Educación Superior Nº 48 'Gral. José de San Martín' | Totoras, Santa Fe, Argentina</p>
+      </div>
+     
+  </header>
+
+    <main class="informacion contenedor">
+        <div class="informacion__contenido" id="informacion">
+          <article class="informacion__texto">
+            <h2>¿Qué es la E.S.I?</h2>
+            <p>La Educación Sexual Integral (ESI) es un espacio sistemático de enseñanza aprendizaje que promueve saberes y habilidades para la toma de decisiones responsables y críticas en relación con los derechos de los niños, las niñas y los/as adolescentes al cuidado del propio cuerpo, las relaciones interpersonales, la información y la sexualidad.</p>
+          </article>
+
+          <article class="informacion__texto">
+            <h2>¿Qué es la Diversidad Sexual?</h2>
+            <p>La diversidad sexual hace referencia a todas las posibilidades que tienen las personas de asumir, expresar y vivir la sexualidad, así como de asumir expresiones, preferencias u orientaciones, identidades sexuales y de género.</p>
+            <p>La importancia de la diversidad sexual radica en el reconocimiento y respeto de las múltiples formas en que las personas pueden vivir y expresar su sexualidad. Promover la diversidad sexual implica fomentar un entorno inclusivo y libre de discriminación, donde cada individuo pueda asumir sus expresiones, preferencias, orientaciones e identidades sexuales y de género con libertad y seguridad. </p>
+          </article>
+
+        </div>
+
+        <aside class="informacion__imagen">
+          <picture>
+            <source srcset="./img/Imagen__informacion.webp" type="image/webp" loading = "lazy">
+            <img class= "borde" src="./img/Imagen__informacion.jpg" alt="Imagen ESI" loading = "lazy">
+          </picture>
+        </aside>
+        
+
+    </main>
+
+    <section class="iconos__divsex contenedor" id="imagenes">
+      
+      <div class="iconos__informacion">
+        <img class="animacion" src="img/diversidad.png">
+        <div class="texto-teoria"> 
+          <h3 class="centrar-texto">Diversidad sexual</h3>
+          <p>La diversidad sexual abarca las formas en que las personas asumen, expresan y viven la sexualidad, incluyendo diferentes expresiones, preferencias, orientaciones e identidades sexuales y de género.</p>
+        </div>
+      </div>
+
+      <div class="iconos__informacion">
+        <img class="animacion" src="img/bandera-arcoiris.png">
+        <div class="texto-teoria">
+          <h3 class="centrar-texto">Bandera LGBTQ</h3>
+          <p>La bandera gay tiene su origen en 1978 como la reivindicación del movimiento homosexual en los Estados Unidos, aunque más tarde se extendió a toda la comunidad LGBT, que engloba las orientaciones sexuales mayoritarias y otras identidades.</p>
+        </div>   
+      </div>
+
+      <div class="iconos__informacion">
+        <img class="animacion" src="img/pareja.png">
+        <div class="texto-teoria margin">
+          <h3 class="centrar-texto">Matrimonio igualitario</h3>
+          <p>Es una institución social de carácter civil o religioso que reconoce y legitima la unión conyugal concertada por dos personas del mismo sexo, para establecer, desarrollar y mantener una comunidad de vida e intereses compartidos.</p>
+        </div>
+      </div>
+
+      <div class="iconos__informacion">
+        <img class="animacion" src="img/lgbt.png">
+        <div class="texto-teoria">
+          <h3 class="centrar-texto">Discriminación por vestimenta</h3>
+          <p>Generalmente, cuando a los hombres heterosexuales les gusta vestirse de mujer, buscan expresar su feminidad. Esa parte de su personalidad que tienen oculta y no se atreven a mostrar. Sin embargo, tarde o temprano necesitan sacarla a la luz.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="consejos contenedor" id="conjesosdivsexual">
+      <div class="consejos__informacion">
+
+        <div class="consejos__contenedor">
+          <div class="consejos__imagenes">
+            <img class="animacion" src="./img/corazones.png" alt="Imagen Corazones">
+            <img class="animacion" src="./img/television.png" alt="Imagen Television">
+            <img class="animacion" src="./img/cinta.png" alt="Imagen Cinta">
+            <img class="animacion" src="./img/orgullo.png" alt="Imagen Orgullo">
+          </div>
+          <div class="texto-teoria">
+            <h3>¿Cómo garantizar el respeto a la diversidad?</h3>
+            <p>El respeto por la diversidad va más allá de la tolerancia y la comprensión, pues implica reconocer y promover activamente el valor igualitario de todas las personas, sin condescendencia. Para garantizar el respeto a la diversidad, es crucial implementar estrategias que fomenten la igualdad y la inclusión en todos los ámbitos de la sociedad. </p>
+          </div>
+        </div>
+        <div class="consejos__contenedor">
+          <div class="consejos__imagenes">
+            <img class="animacion" src="./img/el-respeto.png" alt="Imagen Respeto">
+            <img class="animacion" src="./img/firmar.png" alt="Imagen Calendario ">
+            <img class="animacion" src="./img/encender.png" alt="Imagen Mano">
+            <img class="animacion" src="./img/signo-de-la-paz.png" alt="Imagen Signo de la Paz">
+          </div>
+          <div class="texto-teoria">
+            <h3>¿Qué hacer para tener una buena educación sexual?</h3>
+            <p>Reducir la frecuencia de actividad sexual sin protección dando ideas muy claras. Fomentar el uso de métodos de protección contra el embarazo y las enfermedades de transmisión sexual durante el acto sexual. Enriquecer el conocimiento y la comprensión. Explicar y aclarar sentimientos, valores y actitudes.</p>
+          </div>
+        </div>
+      </div>    
+
+
+      <aside class="imagenes-aside">
+        <div class="imagenes">
+          <picture>
+            <source srcset="./img/consejos.webp" type="image/webp" loading = "lazy">
+            <img class= "borde" src="./img/consejos.jpg" alt="Consejos Imagen" loading = "lazy">
+          </picture>
+        </div>
+  
+        <div class="imagenes">
+          <picture>
+            <source srcset="./img/chicos.webp" type="image/webp" loading = "lazy">
+            <img class= "borde" src="./img/chicos.jpg" alt="Consejos Imagen" loading = "lazy">
+          </picture>
+
+        </div>
+      </aside>
+
+      
+    </section>
+
+    <section class="propuestas-esi contenedor" id="propuestas">
+      <div class="propuesta__informacion">
+        <img class="animacion" src="img/abaco.png">
+        <div class="info-prop">
+          <h3 class="centrar-texto">Propuestas nivel inicial</h3>
+          <p>En el Nivel Inicial los niños y niñas comienzan a transitar experiencias de vínculo con otros diferentes a sus grupos familiares, y a ampliar de este modo su horizonte social y cultural para el desarrollo pleno de sus subjetividades. La propuesta para el nivel inicial también incluye nuevas formas de pensar la organización de los espacios escolares, las relaciones tanto entre niñas y niños, como entre adultos y niños/as, el vínculo entre la escuela y las familias.</p>
+        </div>
+      </div>
+      <div class="propuesta__informacion">
+        <img class="animacion" src="img/estudiante.png">
+        <div class="info-prop">
+          <h3 class="centrar-texto">Propuestas nivel primario</h3>
+          <p>En este nivel, la ESI introduce el conocimiento de diversos modos de organizar la vida social en distintos contextos, problematizando y cuestionando los roles de género y las relaciones entre mujeres y varones en la familia. En el nivel primario, se sistematizan conocimientos y prácticas para el cuidado integral de la salud personal y colectiva, incluyendo la salud sexual y reproductiva desde una perspectiva integral.</p>
+        </div>
+      </div>
+      <div class="propuesta__informacion">
+        <img class="animacion" src="img/estudiante (2).png">
+        <div class="info-prop">
+          <h3 class="centrar-texto">Propuestas nivel secundario</h3>
+          <p>También a donde concurrir para proteger sus derechos y para poder obtener los recursos que necesitan a fin de ejercer su sexualidad con responsabilidad, para prevenir infecciones de transmisión sexual VIH/Sida y decidir cuál es el mejor método anticonceptivo. En este nivel, el Programa Nacional de ESI considera necesario el fortalecimiento de los procesos de construcción de autonomía que posibilitan el respeto.</p>
+        </div>
+      </div>     
+    </section>
+
+    <section class="informacion-esi contenedor" id="esi">
+      <h2>¿Por qué se creo la ESI?</h2>
+      <div class="informacion-esi__imagen">
+        <picture>
+          <source srcset="./img/info-esi.webp" type="image/webp" loading = "lazy">
+          <img class= "borde" src="./img/info-esi.jpg" alt="Informacion ESI" loading = "lazy">
+        </picture>
+      </div>
+      <div class="informacion-esi__contenido">
+        <p>"La sanción de la ESI fue el inicio de un camino a construir que recuperaba reclamos de la sociedad civil y experiencias educativas aisladas, para plasmarse en el reconocimiento de un derecho que iba a llevar a la implementación de otros", dijo a Télam Celeste Adamoli, directora de Educación para los derechos Humanos, Género y ESI de la cartera educativa nacional.</p>
+        <p>Sancionada el 4 de octubre de 2006, la ley 26.150 establece el derecho de todos los y las estudiantes a recibir contenidos de educación sexual integral en las escuelas públicas y privadas del país, desde el nivel inicial hasta la formación técnica no universitaria y el nivel superior docente; entendiendo por integralidad la articulación de "aspectos biológicos, psicológicos, sociales, afectivos y éticos", que deben ser abordados de manera transversal.</p>
+      </div>
+    </section>
+
+    <section class="ejes-esi contenedor" id="ejesesi">
+      <h2>Los ejes de la ESI</h2>
+      <div class="ejes-esi__info">
+        <p>La propuesta de la ESI entiende la sexualidad de manera amplia, no restringida únicamente a cuestiones relacionadas con la genitalidad sino que abarca también los pensamientos, fantasías, deseos, creencias, actitudes, valores, actividades, prácticas, roles y relaciones. El enfoque adoptado para una educación sexual se enmarca en Una concepción integral de la sexualidad, el cuidado y promoción de la salud y los derechos humanos.</p>
+        <p>Es decir de forma integral, atravesada por cinco ejes:</p>
+        <ol>
+          <li>Reconocer la perspectiva de género.</li>
+          <li>Respetar la diversidad.</li>
+          <li>Valorar la afectividad.</li>
+          <li>Ejercer los derechos.</li>
+          <li>Cuidar el cuerpo y la salud.</li>
+        </ol>
+      </div>
+    </section>
+
+    <footer class="footer" id="footer">
+
+      <div class="footer__contenido">
+        <p class="titulo-final">© 2024 | Instituto de Educación Superior Nº 48 'Gral. José de San Martín'</p>
+        <p class="direccion">Pueyrredón M 91, Totoras, Santa Fe</p>
+      </div>
+     
+      <div class="icons">
+        <a href="https://www.instagram.com/ies48totoras/" target="_blank"><i class="fa-brands fa-instagram" style="color: #e1e1e1;"></i></a>
+        <a href="https://www.facebook.com/IES48Totoras/?locale=es_LA" target="_blank"><i class="fa-brands fa-facebook" style="color: #e1e1e1;"></i></a>
+        <a href="https://esc48-sfe.infd.edu.ar/sitio/"><i class="fa-solid fa-globe" style="color: #e1e1e1;"></i></a>
+      </div>
+
+    </footer>
+
+    <script src="https://kit.fontawesome.com/8dd3949086.js" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
