@@ -189,7 +189,7 @@ img{
         flex-direction: column;
         align-items: flex-end;
         gap: 1rem;
-        position: absolute;
+        position: fixed;
         top: 0;
         right: 0;
         bottom: 0;
@@ -197,6 +197,9 @@ img{
         padding: 2rem 0 0 5rem;
         box-shadow: 0 0 0 100vmax #c5adc584;
         transition: all 0.3s;
+        overflow-y: auto;
+        
+
     }
 
     .navegacion.visible{
@@ -238,9 +241,14 @@ img{
         color: var(--Blanco);
     }
 
+    body.menu-abierto {
+        overflow: hidden;
+        position: fixed; 
+        width: 100%; 
+    }
+
     
 }
-
 
 
 /*Informacion*/
@@ -411,8 +419,14 @@ footer{
     text-align: center;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     color: var(--Primario);
     padding: 2rem 0;
+}
+
+.footer__contenido{
+    width: 75%;
 }
 .direccion{
     margin-top: -1rem;
